@@ -14,8 +14,8 @@ static mappedBy = [classes: 'classInstructor']
 //set up variable constraints.
 static constraints = {
 
-name(nullable:false, blank:false, maxSize:256);
-staffId(nullable:false, blank:false, maxSize:20);
+name(nullable:true, blank:false, maxSize:256);
+staffId(nullable:true, blank:false, maxSize:20);
 
 }
 
