@@ -1,5 +1,9 @@
+===================
 <h2>eRegister</h2>
-=========
+===================
+<h5>An Electronic Registration System</h5>
+========================================
+
 
 This eRegister github repositary is created originally for an Assignment piece 
 under my Web Architectures module at Sheffield Hallam University.
@@ -8,6 +12,9 @@ The focus of this assignment  was to demonstrate an understanding in creating an
 application using the MVC framework. The functionality of the application is that of
 an eRegister system allowing the user to record/edit/add information in relation to
 class attendance. 
+
+The eRegister still has some work in progress in terms of tracking and listing attendance
+stats for students, although everything else is fully functional.
 
 This guide to building and using the project follows a few assumptions that you have:
 
@@ -45,20 +52,20 @@ You can now run the list command to see if all files are there:
 
 After cloning the project you can build and run it in a few easy steps:
 
-Firstly make sure you are in the right directory <b>"eRegister"</b>, if not run the same code as before
-<b>" $cd /eRegister "<b> to change directory into eRegister. 
+Firstly make sure you are in the right directory "eRegister", if not run the same code as before
+<b>" $cd /eRegister "</b> to change directory into eRegister. 
 
 You can now run the command <b>" $grails run-app ".</b> 
 
 What this will do is compile the application and give you a link which you can open and use the functionality of
-the eRegister. Read the <b>"Using the eRegister Application"</b> section below for more information.
+the eRegister. Read the "Using the eRegister Application" section below for more information.
 
 p.s. If you run into an error like such <b>" Grails: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml] "</b>
 simply use the command <b>" grails upgrade "</b> and repeat the <b>" grails run-app "</b> process.
 
 
 ===================
-Using the eRegister
+<h4>Using the eRegister</h4>
 ===================
 
 Once you open the link given to you by running the app, you should come accross an index page with the selected options:
