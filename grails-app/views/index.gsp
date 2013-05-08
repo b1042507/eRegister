@@ -17,12 +17,21 @@
 		<h1>Welcome to my eRegister application.</h1>
 		<br/>
 		<br/>
+			
+		<p>This section allows you to Add/Edit/Delete Records in relation to courses, students, instructors and classes.</p><br />
+
 			<p>
 			<g:link controller = "course" action = "list" >List Courses</g:link><br/>
 			<g:link controller = "student" action = "list" >List Students</g:link><br/>
 			<g:link controller = "instructor" action = "list" >List Instructors</g:link><br/>
-			<g:link controller = "regClass" action = "list" >List Registered Classes</g:link><br />
-			<g:link controller = "apply" action = "index" >Attendance Utility</g:link>
+			<g:link controller = "regClass" action = "list" >List Registered Classes</g:link><br/>
+			<br/>
+
+
+<p>This section is currently not functional although is currently being developed.</p><br />
+			<p>
+			<p> Add/Edit Attendance</p><br/>
+			<p> List Attendance</p>
 			</p>
 
 	</body>
